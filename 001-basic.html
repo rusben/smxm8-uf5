@@ -3,6 +3,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>Basic</title>
+		<link rel="stylesheet" type="text/css" href="001-basic.css" />
 	</head>
 
 	<body>
@@ -28,24 +29,23 @@
 
 		<!-- Links -->
 		<a href="https://elpuig.xeill.net">Outside</a>
-<<<<<<< HEAD
 
 		<!-- Images inside my server -->
 		<img src="fast.jpg" alt="I'm a bit faster today." width="640" height="640">
 
     <!-- Images in an external resource -->
-    <img src="https://upload.wikimedia.org/wikipedia/commons/6/69/Grapevinesnail_01.jpg" alt="I'm a bit faster today." width="640" >
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/69/Grapevinesnail_01.jpg" title="I'm a bit faster today." alt="I'm a bit faster today." width="640" >
 
     <em>Emphasis</em>
     <strong>Strong</strong>
-=======
-    <a href="000-hello-world.html">Inside</a>
 
-		<!-- Images -->
-		<img
-    src="fast.jpg"
-    alt="I'm a bit faster today."
-    width="640" height="640">
+    <a href="000-hello-world.html">
+			<!-- Images -->
+			<img
+	    src="fast.jpg"
+	    alt="I'm a bit faster today."
+	    width="640" height="640">
+		</a>
 
     <img
     src="https://upload.wikimedia.org/wikipedia/commons/6/69/Grapevinesnail_01.jpg"
@@ -59,6 +59,16 @@
       <li>Sandías</li>
       <li>Kiwis</li>
     </ul>
+
+		<!-- Ordered List -->
+		<ol>
+			<!-- List Item -->
+			<li>Manzanas</li>
+			<li>Sandías</li>
+			<li>
+				<a href="http://kiwis.com"> Kiwis </a>
+			</li>
+		</ol>
 
     <!-- Ordered List -->
     <ol>
@@ -85,12 +95,12 @@
     </dl>
 
     <style>
+
         table, td { border: 1px solid black;
                     border-collapse: collapse;
 
                   }
         table { width: 100%; }
-
     </style>
 
     <!-- Table -->
@@ -102,13 +112,27 @@
             <td> ke </td>
             <td> ase </td>
         </tr>
+				<tr>
+					<!-- Cell -->
+					<td> Hola </td>
+					<td colspan="2"> Hola ke </td>
+				</tr>
     </table>
 
     <em> Emphasis </em>
     <strong> Strong </strong>
 
+		<div id="main-card">
 
->>>>>>> cd041c4fca9d121dc056bcbeaa67d1b7fe1eb55c
+		</div>
+
+		<div class="red-card">
+
+		</div>
+
+		<div class="red-card">
+
+		</div>
 
 	</body>
 

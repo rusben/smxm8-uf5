@@ -1,0 +1,10 @@
+#main-card {
+  border: 1px solid green;
+}
+
+.red-card{
+  border: 1px solid red;
+  height: 10px;
+  margin: 5px;
+  background-color: cyan;
+}
