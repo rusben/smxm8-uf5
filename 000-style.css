@@ -9,20 +9,28 @@
 .default {
   color: green;
   border: 1px solid black;
-  float: right;
   height: 50px;
 }
 
 #special-one {
   font-size: 22px;
+  color: blue;
+}
+
+.big-font {
+  font-size: 50px;
 }
 
 .text-center {
-    text-align:center;
+ text-align:center;
 }
 
 body {
 background-color: #dadada;
 background-image: url("https://www.shropshirestar.com/resizer/ryxr-4I1l3BVQloKAJrAJsHt2k8=/1000x0/filters:quality(100)/arc-anglerfish-arc2-prod-shropshirestar-mna.s3.amazonaws.com/public/T24IKCMEE5BJHKBNDCINJK7ESE.jpg");
+background-repeat: no-repeat;
+
+background-position: center top;
+background-size: 100% auto;
 
 }
