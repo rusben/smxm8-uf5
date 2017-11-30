@@ -1,0 +1,42 @@
+div {
+  border: 1px solid black;
+}
+
+#sidebar {
+  float: left;
+  width: 30%;
+  overflow: hidden;
+}
+
+#content {
+  border: 1px solid red;
+  float: right;
+  width: 68%;
+}
+
+#pin {
+  border: 1px dashed black;
+  position: fixed;
+  top: 10px;
+  right: 0;
+}
+
+.img-right {
+  float: right;
+}
+
+.img-left {
+  float: left;
+}
+
+.img-small {
+  width: 150px;
+  border: 1px solid #dadada;
+  padding: 5px;
+}
+
+.img-mini {
+  width: 50px;
+  background-color: red;
+  padding: 2px;
+}
