@@ -1,0 +1,42 @@
+body { margin: 0; padding: 0;  }
+div { border: 1px solid red; }
+img { max-width: 100%; }
+
+#wrapper { margin-top: 45px; }
+#header {  }
+#navbar {  
+	height: 45px;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+#navbar ul {
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  overflow: hidden;
+}
+
+#navbar li {
+	border: 1px solid green;
+	list-style-type: none;
+	float: left;
+	padding: 10px;
+	background-color: #ddd;
+}
+
+#navbar-right { width: 49.5%; float: right; border: 1px solid blue; }
+#navbar-left { width: 49.5%; float: left; }
+
+#left-menu { width: 24.25%; float: left; }
+#right-menu { width: 24.25%; float: right; }
+#content { width: 50%; float: left; }
+#footer {  }
+
+.clearfix{ clear: both;}
+
+.logo {}
+#header-logo { color: red; float: right; }
+.header-title {}
+.header-subtitle {}
