@@ -1,0 +1,29 @@
+div { }
+
+#main-wrapper { width: 80%; margin: 0 auto;}
+
+#header { position: fixed; width: 80%; background-color: red; margin-top: -50px; padding: 10px;}
+#main-menu { width: 49.5%; float: left; }
+#main-menu-form { width: 49.5%; float: right; }
+
+#content-wrapper { margin-top: 50px; }
+#content { width: 69%; float: left;  }
+#right-menu { width: 28%; float: right; border: 1px solid gray; padding: 10px; box-shadow: 1px 2px gray;}
+
+.post { }
+.img-post { width: 30%; border: 1px solid #dadada; padding: 5px;}
+.img-post-left { float: left; }
+.img-post-right { float: right; }
+
+.post-buttons input {  cursor: pointer; }
+.report-button { background-color: red; color: white; padding: 5px;}
+.comment-button { background-color: green; color: white; padding: 5px;}
+
+.report-button:hover { opacity: 0.5; }
+
+.clearfix { clear: both; }
+
+#footer {}
+.footer-column { width: 32%; float: left;}
+
+img { max-width: 100%; }
