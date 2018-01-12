@@ -1,0 +1,21 @@
+div {  }
+
+#header { }
+
+#main-menu { width: 49.5%; float: left;}
+#main-menu-form { width: 49.5%; float: right;}
+
+
+#content-wrapper { }
+#content {  width: 69%; float: left; padding: 5px;}
+#right-menu {  width: 29%; float: right; }
+
+#footer { }
+.footer-column {  width: 32.5%; float: left; }
+
+img { max-width: 100%;}
+.img-post { width: 30%; padding: 5px; border: 1px solid #dadada; }
+.img-post-right { float: right; }
+.img-post-left { float: left; }
+
+.clearfix { clear: both; }
