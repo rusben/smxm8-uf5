@@ -5,10 +5,11 @@
 
 #content p {background-color: green;}
 
+#footer { border: thick solid blue; }
 
-#footer { border: thin solid blue; }
-
-.footer-column { width: 33.333333%; border: thin solid red; float: left;  }
+.footer-column { width: 33.333333%;
+  border: thin solid red;
+  float: left;  }
 .footer-column a { background-color: yellow;}
 
 .clearfix { clear: both; }
