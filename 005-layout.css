@@ -20,4 +20,12 @@ img { max-width: 100%;}
 .img-post-right { float: right; }
 .img-post-left { float: left; }
 
+/* clearfix class + div, option 1 */
 .clearfix { clear: both; }
+
+/* clearfix by css only */
+.post:after, #header:after {
+    content: "";
+    display: table;
+    clear: both;
+}
