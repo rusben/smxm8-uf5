@@ -1,0 +1,10 @@
+div { border: 1px solid black; }
+
+#header { }
+
+#left-menu { float: left; width: 30%; }
+#content { float: right; width: 68%; }
+
+#footer {  }
+
+.clearfix { clear: both; }

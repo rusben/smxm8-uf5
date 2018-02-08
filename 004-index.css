@@ -1,11 +1,17 @@
+* {
+	    box-sizing: border-box;
+}
+
 body { margin: 0; padding: 0;  }
-div { border: 1px solid red; }
+div {  }
 img { max-width: 100%; }
 
-#wrapper { margin-top: 45px; }
-#header {  }
+#wrapper { margin-top: 37px; }
+#header { border: thin solid red; }
+
 #navbar {  
-	height: 45px;
+	border: thin solid green;
+	background-color: #104da1;
 	position: fixed;
 	top: 0;
 	width: 100%;
@@ -14,24 +20,28 @@ img { max-width: 100%; }
 #navbar ul {
   margin: 0;
   padding: 0;
-  background-color: #000;
   overflow: hidden;
 }
 
 #navbar li {
-	border: 1px solid green;
+	border: thin solid green;
 	list-style-type: none;
 	float: left;
-	padding: 10px;
-	background-color: #ddd;
+	padding: 1%;
+	background-color: #104da1;
 }
 
-#navbar-right { width: 49.5%; float: right; border: 1px solid blue; }
-#navbar-left { width: 49.5%; float: left; }
+#navbar a {
+	text-decoration: none;
+	color: white;
+}
 
-#left-menu { width: 24.25%; float: left; }
-#right-menu { width: 24.25%; float: right; }
-#content { width: 50%; float: left; }
+#navbar-right { width: 40%; float: right; border: thin solid blue; }
+#navbar-left { width: 60%; float: left; }
+
+#left-menu { width: 25%; float: left; }
+#right-menu { width: 25%; float: right; }
+#content { width: 50%; float: left; padding: 1%; }
 #footer {  }
 
 .clearfix{ clear: both;}
@@ -40,3 +50,10 @@ img { max-width: 100%; }
 #header-logo { color: red; float: right; }
 .header-title {}
 .header-subtitle {}
+
+/* clearfix by css only */
+#navbar:after {
+    content: "";
+    display: table;
+    clear: both;
+}

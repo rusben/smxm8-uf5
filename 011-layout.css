@@ -2,6 +2,14 @@
 
 #header { border: thin solid black; }
 #content { border: thin solid green; }
-#footer { border: thin solid blue; }
 
-.footer-column { width: 33.333333%; border: thin solid red; float: left;  }
+#content p {background-color: green;}
+
+#footer { border: thick solid blue; }
+
+.footer-column { width: 33.333333%;
+  border: thin solid red;
+  float: left;  }
+.footer-column a { background-color: yellow;}
+
+.clearfix { clear: both; }

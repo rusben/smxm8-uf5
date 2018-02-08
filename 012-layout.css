@@ -1,0 +1,21 @@
+* { box-sizing: border-box; }
+
+body { margin: 0 ; }
+
+#header { border: thin solid black; }
+#content { border: thin solid green; }
+
+#content-left {
+  border: thin solid yellow;
+  float: left;
+  width: 70%;
+}
+#content-right {
+  border: thin solid red;
+  float: right;
+  width: 30%;
+}
+
+#footer { border: thin solid blue; }
+
+.clearfix { clear: both; }

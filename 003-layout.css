@@ -1,5 +1,7 @@
+* { box-sizing: border-box;}
+
 div {
-  border: 1px solid black;
+  border: thin solid black;
 }
 
 #sidebar {
@@ -9,9 +11,8 @@ div {
 }
 
 #content {
-  border: 1px solid red;
   float: right;
-  width: 68%;
+  width: 70%;
 }
 
 #pin {
