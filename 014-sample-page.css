@@ -1,0 +1,17 @@
+/* Global */
+* { box-sizing: border-box; }
+body { margin: 0; padding: 0; }
+
+/* Helpers */
+.clearfix{ clear: both;}
+
+/* Main */
+.main-wrapper {padding: 10px;}
+
+/* Navbar */
+nav { padding: 5px; }
+nav a { text-decoration: none; color: orange; padding: 5px; border: thin solid white; padding: 5px; margin: 0; }
+nav a:hover { text-decoration: underline;  color: orange; border: thin solid #dadada;  }
+
+/* Footer */
+footer p {  color: orange; }
