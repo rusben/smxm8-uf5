@@ -1,0 +1,21 @@
+* { box-sizing: border-box; z-index: -1; }
+
+.clearfix { clear: both; }
+
+.container { width: 80%; margin: 0 auto; }
+
+.row { width: 100%; }
+
+.base { width: 100%; background-color: black; height: 50px;  border-radius: 3px; border: thin solid darkgray; }
+
+.rod-wrapper { width: 10%; float: left; }
+
+.rod { height: 100px; width: 25px; background-color: red; margin: 0 auto; transform: rotate(180deg);  border-radius: 3px; border: thin solid darkred; border-top: 0; }
+
+.rod-space { width: 17.5%; float: left; }
+
+.disk {  width: 100px; height: 25px;  z-index: 3; background-color: blue; transform: translateX(-37.5px); border-radius: 5px; border: thin solid darkblue; }
+
+
+
+

@@ -4,7 +4,7 @@ body { padding-top: 100px;  }
 
 .clearfix { clear: both; }
 
-.row { margin: 0 auto; }
+.row { }
 
 .polaroid { width: 4in;  height: 4.25in; border: thin solid gray; padding: 0.25in; float: left; margin: 0.125in; background-color: white;  box-shadow: 7px 7px 10px #bababa; }
 .photo { width: 3.5in;  height: 3in; background-color: black; overflow: hidden; border: thin solid #dadada;}
