@@ -30,18 +30,20 @@ h1 {
 
 .parallax-background {
   /* https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
-  display: flex;
-  flex: 1 0 auto;
+  /* display: flex;
+  flex: 1 0 auto;  
+  justify-content: center;
+  align-items: center;
+  */
+
   position: relative;
   z-index: -1;
   height: 100vh;
-  justify-content: center;
-  align-items: center;
   transform: translateZ(-1px) scale(2);
-  color: white;
+  color: black;
   font-weight: bold;
   background-position: center !important;
-  background-color: #effefe !important;
+  background-color: red !important;
   background-repeat: no-repeat !important;
 }
 
