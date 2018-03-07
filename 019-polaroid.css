@@ -1,0 +1,17 @@
+* { box-sizing: border-box; z-index: -1; }
+
+body { padding-top: 100px;  }
+
+.clearfix { clear: both; }
+
+.row { margin: 0 auto; }
+
+.polaroid { width: 4in;  height: 4.25in; border: thin solid gray; padding: 0.25in; float: left; margin: 0.125in; background-color: white;  box-shadow: 7px 7px 10px #bababa; }
+.photo { width: 3.5in;  height: 3in; background-color: black; overflow: hidden; border: thin solid #dadada;}
+
+.photo img { height: 100%;  text-align: center; }
+
+/* https://www.w3schools.com/cssref/css3_pr_transform.asp */
+.rotate22-5 { transform: rotate(22.5deg); }
+ .rotate45 { transform: rotate(45deg); }
+ .rotate90 { transform: rotate(90deg); }
