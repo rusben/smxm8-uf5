@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: white;
+  font-size: 200px;
+  font-weight: bold;
+  line-height: 200px;
+}
+
+.parallax-container {
+  perspective: 1px;
+  transform-style: preserve-3d;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.parallax-foreground {
+  position: relative;
+  display: block;
+  background-color: white;
+  z-index: 1;
+}
+
+.parallax-foreground p { line-height: 100px;}
+
+.parallax-background {
+  /* https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
+  display: flex;
+  flex: 1 0 auto;
+  position: relative;
+  z-index: -1;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  transform: translateZ(-1px) scale(2);
+  color: white;
+  font-weight: bold;
+  background-position: center !important;
+  background-color: #effefe !important;
+  background-repeat: no-repeat !important;
+}
+
+.background-snail { background: url("images/fast.jpg");  }
+.background-flower { background: url("images/flower.jpg"); }
