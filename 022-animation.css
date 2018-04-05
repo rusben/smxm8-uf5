@@ -1,0 +1,16 @@
+* { box-sizing: border-box;}
+
+.zombie-walk {
+  width: 521px;
+  height: 576px;
+  background-image: url("images/sprite-walk.png");
+  animation: walk 1s steps(10) infinite, out 5s steps(100) infinite;
+}
+
+@keyframes walk {
+  100% { background-position: -5210px; }
+}
+
+@keyframes out {
+  100% { margin-left: 521px; }
+}
