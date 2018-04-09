@@ -1,0 +1,63 @@
+* { box-sizing: border-box;}
+
+.layer-01 {
+  animation: forward 15s steps(1000) infinite forwards;
+}
+
+.layer-02 {
+  animation: forward 14s steps(1000) infinite forwards;
+}
+
+.layer-03 {
+  animation: forward 13s steps(1000) infinite forwards;
+}
+
+.layer-04 {
+  animation: forward 12s steps(1000) infinite forwards;
+}
+
+.layer-05 {
+  animation: forward 11s steps(1000) infinite forwards;
+}
+
+.layer-06 {
+  animation: forward 10s steps(1000) infinite forwards;
+}
+
+.layer-07 {
+  animation: forward 9s steps(1000) infinite forwards;
+}
+
+
+
+
+
+
+
+@keyframes forward {
+  100% { background-position: -3000px; }
+}
+
+.background {
+	padding: 100px;
+width: 900px;
+height: 300px;
+border: thin solid black;
+position: relative;
+overflow: hidden;
+border-radius: 25px;
+}
+
+.layer-01, .layer-02, .layer-03, .layer-04, .layer-05, .layer-06, .layer-07 {
+width: 3000px;
+height: 300px;
+position: absolute;
+}
+
+.layer-01 { background-image: url("images/023/layer-01.png"); }
+.layer-02 { background-image: url("images/023/layer-02.png"); }
+.layer-03 { background-image: url("images/023/layer-03.png"); }
+.layer-04 { background-image: url("images/023/layer-04.png"); }
+.layer-05 { background-image: url("images/023/layer-05.png"); }
+.layer-06 { background-image: url("images/023/layer-06.png"); }
+.layer-07 { background-image: url("images/023/layer-07.png"); }

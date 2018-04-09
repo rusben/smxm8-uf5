@@ -4,13 +4,17 @@
   width: 521px;
   height: 576px;
   background-image: url("images/sprite-walk.png");
-  animation: walk 1s steps(10) infinite, out 5s steps(100) infinite;
+  animation: walk 1s steps(10) infinite, forward 5s steps(100) 1 forwards, disappear 5s steps(10) 1 forwards;
 }
 
 @keyframes walk {
   100% { background-position: -5210px; }
 }
 
-@keyframes out {
+@keyframes forward {
   100% { margin-left: 521px; }
+}
+
+@keyframes disappear {
+  100% { opacity: 0; }
 }
