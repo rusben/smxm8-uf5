@@ -1,0 +1,21 @@
+* { box-sizing: border-box;}
+
+.ground {
+  animation: forward 15s steps(1000) infinite forwards;
+}
+
+@keyframes forward {
+  100% { background-position: -3000px; }
+}
+
+.background {
+	padding: 100px;
+  width: 900px;
+  height: 300px;
+  border: thin solid black;
+  position: relative;
+  overflow: hidden;
+  border-radius: 25px;
+}
+
+.ground { background-image: url("images/super-mario/ground.png"); }
