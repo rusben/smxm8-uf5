@@ -1,11 +1,24 @@
 * { box-sizing: border-box;}
 
 .ground {
-  animation: forward 10s steps(1000) infinite forwards;
+  animation: move 10s steps(1000) infinite forwards;
 }
 
-@keyframes forward {
-  100% { background-position: -1680px; }
+.enemy {
+  animation: walk 10s steps(1000) infinite forwards, jump 3s steps(1000) infinite forwards;
+}
+
+@keyframes move {
+  100% { background-position: -1680px 0px; }
+}
+
+@keyframes walk {
+  100% { margin-left: 1024px;  transform: scale(2);  }
+}
+
+@keyframes jump {
+  50% { bottom: 226px; }
+  100% { bottom: 113px; }
 }
 
 .background {
@@ -16,6 +29,7 @@
   position: relative;
   overflow: hidden;
   border-radius: 5px;
+  background-color: skyblue;
 }
 
 .ground {
@@ -25,4 +39,14 @@
   position: absolute;
   bottom: 0;
   left: 0;
+}
+
+.enemy {
+  background-image: url("images/super-mario/enemy.png");
+  width: 75px;
+  height: 75px;
+  position: absolute;
+  bottom: 113px;
+
+  margin-left: -175px;
 }
