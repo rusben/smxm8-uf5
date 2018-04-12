@@ -8,6 +8,21 @@
   animation: walk 10s steps(1000) infinite forwards, jump 3s steps(1000) infinite forwards;
 }
 
+.small-cloud {
+  animation: slide-left 10s steps(1000) infinite forwards, down-up 10s steps(1000) infinite forwards;
+}
+
+.other-cloud {
+  animation: slide-left 7s steps(1000) infinite forwards, down-up 5s steps(1000) infinite forwards;
+}
+
+
+.big-cloud {
+  animation: slide-left 5s steps(1000) infinite forwards, down-up 10s steps(1000) infinite forwards;
+}
+
+
+
 @keyframes move {
   100% { background-position: -1680px 0px; }
 }
@@ -21,8 +36,16 @@
   100% { bottom: 113px; }
 }
 
+@keyframes slide-left {
+  100% { margin-right: 1024px; }
+}
+
+@keyframes down-up {
+  50% { margin-top: 200px;}
+  100% { margin-top: 0px; }
+}
+
 .background {
-	padding: 100px;
   width: 1024px;
   height: 768px;
   border: thin solid black;
@@ -30,6 +53,7 @@
   overflow: hidden;
   border-radius: 5px;
   background-color: skyblue;
+  margin: 0 auto;
 }
 
 .ground {
@@ -47,6 +71,30 @@
   height: 75px;
   position: absolute;
   bottom: 113px;
-
   margin-left: -175px;
+}
+
+.small-cloud {
+  background-image: url("images/super-mario/small-cloud.png");
+  width: 204px;
+  height: 156px;
+  top: 0;
+  right: 0;
+  position: absolute;
+  margin-right: -180px;
+}
+
+.big-cloud {
+  background-image: url("images/super-mario/big-cloud.png");
+  width: 301px;
+  height: 113px;
+  top: 0;
+  right: 0;
+  position: absolute;
+  margin-right: -302px;
+}
+
+.other-cloud {
+  top: 100px;
+  right: 100px;
 }
