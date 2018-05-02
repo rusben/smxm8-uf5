@@ -1,0 +1,36 @@
+* { box-sizing: border-box;}
+
+.banner { display: table; }
+
+.card {
+  height: 161.8px;
+  width: 100px;
+  border: thin solid #dadada;
+  padding: 5px;
+  float: left;
+  font-size: 40px;
+  text-align: center;
+  -webkit-transition: width 2s, height 2s; /* Safari */
+  transition: width 2s, height 2s;
+}
+
+.card:hover { width: 200px; height: 323.6px }
+
+.diamonds, .hearts { color: red; }
+.clubs, .spades { color: black; }
+
+.diamonds:before {
+  content: "♦";
+}
+
+.clubs:before {
+  content: "♣";
+}
+
+.hearts:before {
+  content: "♥";
+}
+
+.spades:before {
+  content: "♠";
+}
