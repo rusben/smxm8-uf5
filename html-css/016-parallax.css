@@ -47,5 +47,5 @@ h1 {
   background-repeat: no-repeat !important;
 }
 
-.background-snail { background: url("images/fast.jpg");  }
-.background-flower { background: url("images/flower.jpg"); }
+.background-snail { background: url("../images/fast.jpg");  }
+.background-flower { background: url("../images/flower.jpg"); }

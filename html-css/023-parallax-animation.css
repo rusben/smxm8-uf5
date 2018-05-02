@@ -54,10 +54,10 @@ height: 300px;
 position: absolute;
 }
 
-.layer-01 { background-image: url("images/023/layer-01.png"); }
-.layer-02 { background-image: url("images/023/layer-02.png"); }
-.layer-03 { background-image: url("images/023/layer-03.png"); }
-.layer-04 { background-image: url("images/023/layer-04.png"); }
-.layer-05 { background-image: url("images/023/layer-05.png"); }
-.layer-06 { background-image: url("images/023/layer-06.png"); }
-.layer-07 { background-image: url("images/023/layer-07.png"); }
+.layer-01 { background-image: url("../images/023/layer-01.png"); }
+.layer-02 { background-image: url("../images/023/layer-02.png"); }
+.layer-03 { background-image: url("../images/023/layer-03.png"); }
+.layer-04 { background-image: url("../images/023/layer-04.png"); }
+.layer-05 { background-image: url("../images/023/layer-05.png"); }
+.layer-06 { background-image: url("../images/023/layer-06.png"); }
+.layer-07 { background-image: url("../images/023/layer-07.png"); }

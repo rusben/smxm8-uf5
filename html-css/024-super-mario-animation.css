@@ -57,7 +57,7 @@
 }
 
 .ground {
-  background-image: url("images/super-mario/ground.png");
+  background-image: url("../images/super-mario/ground.png");
   width: 1680px;
   height: 113px;
   position: absolute;
@@ -66,7 +66,7 @@
 }
 
 .enemy {
-  background-image: url("images/super-mario/enemy.png");
+  background-image: url("../images/super-mario/enemy.png");
   width: 75px;
   height: 75px;
   position: absolute;
@@ -75,7 +75,7 @@
 }
 
 .small-cloud {
-  background-image: url("images/super-mario/small-cloud.png");
+  background-image: url("../images/super-mario/small-cloud.png");
   width: 204px;
   height: 156px;
   top: 0;
@@ -85,7 +85,7 @@
 }
 
 .big-cloud {
-  background-image: url("images/super-mario/big-cloud.png");
+  background-image: url("../images/super-mario/big-cloud.png");
   width: 301px;
   height: 113px;
   top: 0;
