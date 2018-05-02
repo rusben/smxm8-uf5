@@ -4,7 +4,7 @@ var elements = [3, 7, 9, 18, 24, 5, 7, 27, 32, 35, 42, 47];
 function greaterThan18(elements) {
 
   // Escriviu aquí el vostre codi:
-
+  return 0;
 }
 
-document.getElementById("result").innerHTML = greaterThan18();
+document.getElementById("result").innerHTML = greaterThan18(elements);
