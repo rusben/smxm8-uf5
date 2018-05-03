@@ -7,4 +7,26 @@ function greaterThan18(elements) {
   return 0;
 }
 
-document.getElementById("result").innerHTML = greaterThan18(elements);
+document.getElementById("A").innerHTML = greaterThan18(elements);
+
+
+// Retorna la suma de los números que son estrictamente mayores que 18
+// y que además son pares
+function greaterThan18Odd(elements) {
+
+  // Escriviu aquí el vostre codi:
+  return 0;
+}
+
+document.getElementById("B").innerHTML = greaterThan18(elements);
+
+// Retorna la suma de los números que son estrictamente mayores que 18
+// y que además son pares y que se encuentran en posiciones impares del vector
+function greaterThan18OddEvenPositions(elements) {
+
+  // Escriviu aquí el vostre codi:
+  return 0;
+}
+
+
+document.getElementById("C").innerHTML = greaterThan18(elements);
