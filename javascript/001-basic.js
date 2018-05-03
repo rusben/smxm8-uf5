@@ -10,10 +10,10 @@
 
 // http://lucybain.com/blog/2015/js-data-types/
 
-//  Las variables en javscript pueden ser declaradas mediante let o var, la diferencia
+//  Las variables en javascript pueden ser declaradas mediante let o var, la diferencia
 //  principal entre ambas formas es el ámbito de actuación de la variable. Mientras las variables
 //  declaradas con var están activas en el ámbito global del programa, las variables declaradas
-//  con let únicamente están accesibles dentro del bloque de código en el que se declaren. 
+//  con let únicamente están accesibles dentro del bloque de código en el que se declaren.
 //  Al principio y para simplificar usaremos var.
 
 //  Más info: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let
@@ -24,21 +24,29 @@ var nulo = null;
 var indefinida;
 
 console.log("Variables");
-console.log("Número: "+numero);
+console.log("Número: "+numero+" más texto");
 console.log("Texto: "+texto);
 console.log("Nulo: "+nulo);
 console.log("Indefinida: "+indefinida);
 
- 
+
 //   Queremos repartir un cierto número de pasteles entre las personas asistentes a una fiesta,
 //   teniendo en cuenta que a última hora siempre s eapunta alguien más.
 //   Calcula la porción de pastel que le corresponde a cada persona.
 
 function porciones(pasteles, personas, ultimaHora) {
+  if (pasteles < 10 || pasteles > 5) {
+    // Se cumnple la condición
+    return 0;
+  } else {
+    // No se cumple la condición
+    console.log("Hola");
+  }
+
   return pasteles / (personas + ultimaHora);
 }
 
-//  Llamada a la función porciones que resuelve el problema anterior, con 
+//  Llamada a la función porciones que resuelve el problema anterior, con
 //  50 pasteles, 10 personas y 3 asistentes de última hora
 
 console.log("Porciones");
@@ -60,7 +68,7 @@ console.log(person);
 console.log("Persona mayor de 18 años? "+person.olderThan18());
 
 
-//   Capturamos del DOM (Document Object Model) el texto que hay dentro de cada div de la clase 
+//   Capturamos del DOM (Document Object Model) cada div de la clase
 //   'hidden-class' del documento html
 var divsOcultas = document.getElementsByClassName('hidden-class');
 console.log("Objectos del DOM que tienen el atributo class en 'hidden-class'");
@@ -78,7 +86,7 @@ for (i = 0; i < elements.length; i++) {
 console.log("Suma de los elementos de la lista 'elements'");
 console.log(total);
 
-//   Muestra un cuadro de diálogo con yes/no 
+//   Muestra un cuadro de diálogo con yes/no
 
 if (confirm('Eres mayor de 18?')) {
     // Code if true
