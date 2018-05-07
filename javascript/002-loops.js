@@ -60,16 +60,19 @@ document.getElementById("C").innerHTML = greaterThan18OddEvenPositions(elements)
 // y que además son pares y que se encuentran en posiciones pares del vector
 function multiplyAll(elements) {
 
-  var total = 0;
+  if (elements.length == 0) return 0;
+  else {
+    var total = 1;
 
-  for (i = 0; i < elements.length; i++) {
+    for (i = 0; i < elements.length; i++) {
 
-    if ((elements[i] > 18) &&
-        (elements[i] % 2 == 0) &&
-        (i % 2 == 1)) {
-      total = total + elements[i];
+      if ((elements[i] > 18) &&
+          (elements[i] % 2 == 0) &&
+          (i % 2 == 0)) {
+        total = total * elements[i];
+      }
+
     }
-
   }
 
   return total;
