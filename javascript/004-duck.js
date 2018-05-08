@@ -9,5 +9,6 @@ var kwaks = document.getElementsByClassName("kwak");
 });
 
 function sayKwak() {
-  console.log("kwak");
+  var audio = document.getElementById("kwak");
+  audio.play();
 }
