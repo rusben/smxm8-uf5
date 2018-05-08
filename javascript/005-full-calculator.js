@@ -1,6 +1,6 @@
 var calcButtons = document.getElementsByClassName("calc-btn");
-var formula = document.getElementById("formula");
 
+var formula = document.getElementById("formula");
 var equalButton = document.getElementById("btn-equal");
 var resetButton = document.getElementById("btn-reset");
 
@@ -14,11 +14,12 @@ var resetButton = document.getElementById("btn-reset");
   el.addEventListener("click", formulaAddValue);
 });
 
+
 equalButton.addEventListener("click", formulaEval);
 resetButton.addEventListener("click", formulaReset);
 
 function formulaAddValue() {
-    // console.log(this.value);
+    //console.log(this.value);
     // console.log(formula);
     formula.value = formula.value + this.value;
 }
@@ -30,6 +31,8 @@ function formulaEval() {
 function formulaReset() {
   formula.value = "";
 }
+
+
 
 
 
