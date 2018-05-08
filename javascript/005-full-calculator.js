@@ -15,4 +15,5 @@ Array.prototype.forEach.call(calcButtons, function(el) {
 
 function wow() {
     console.log("wow");
+    console.log(this.value);
 }
