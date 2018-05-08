@@ -2,8 +2,6 @@ var operandA;
 var operandB;
 var result;
 
-
-
 function sum() {
   updateOperands();
   setResult(Number(operandA.value) + Number(operandB.value));
