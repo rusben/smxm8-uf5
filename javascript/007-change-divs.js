@@ -16,3 +16,14 @@ function circle() {
 function cross() {
   this.innerHTML = "X";
 }
+
+// 0: casilla vacía
+// 1: rojo
+// 2: azul
+var items = [
+  [0,1,2,1],
+  [0,2,1,2],
+  [1,2,1,1]
+];
+console.log(items[0][0]); // 1
+console.log(items);

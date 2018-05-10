@@ -2,12 +2,12 @@ var cels = document.getElementsByClassName("cel");
 var turnPlayer = "X";
 
 [].forEach.call(cels, function (el) {
-  el.addEventListener("click", buttonClicked);
+  el.addEventListener("click", celClicked);
 });
 
-function buttonClicked() {
-  console.log(this.innerHTML);
-  if (this.innerHTML == "") {
+function celClicked() {
+  //console.log(this);
+  if (this.innerHTML == "") { // If cell is empty
     play(this);
     changePlayer();
   }
@@ -18,6 +18,9 @@ function play(el) {
 }
 
 function changePlayer() {
-  if (turnPlayer == "X") { turnPlayer = "O"; }
-  else if (turnPlayer == "O") { turnPlayer = "X"; }
+  if (turnPlayer == "X") {
+    turnPlayer = "O";
+  } else if (turnPlayer == "O") {
+    turnPlayer = "X";
+  }
 }
