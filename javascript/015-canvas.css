@@ -1,0 +1,13 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.clearfix { clear: both; }
+
+#myCanvas {
+  border: thin solid black;
+  margin: 0 auto;
+  display: block;
+}
