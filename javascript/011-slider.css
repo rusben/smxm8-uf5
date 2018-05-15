@@ -1,0 +1,10 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+.clearfix { clear: both; }
+
+#slider {
+  width: 640px;
+  height: 640px;
+  margin: 0 auto;
+  text-align: center;
+}
