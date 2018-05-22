@@ -187,3 +187,17 @@ padding: 1em;
 
 
 /* FIN MENU (NAVBAR) */
+
+
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .content-column {
+        width: 100%;
+    }
+
+    #header-left, #header-right {
+        width: 100%;
+
+    }
+}
