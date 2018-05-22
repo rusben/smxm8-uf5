@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+  border: thin solid black;
+
+}
+
+body {
+  background-color: #2f2f2f;
+  color: white;
+}
+
+.clearfix { clear: both; }
+
+.content-column {
+  width: 33.33333333333%;
+  float: left;
+}
+
+.portfolio-item {
+  border: thin solid red;
+}
