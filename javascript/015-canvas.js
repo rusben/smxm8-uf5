@@ -51,7 +51,7 @@ function getRandomColor() {
 }
 
 drawPlayer();
-drawEnemies(5, 10);
+drawEnemies(6, 10);
 
 /*
 fillRect

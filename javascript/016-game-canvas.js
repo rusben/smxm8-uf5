@@ -26,7 +26,6 @@ function pauseGame() {
     myGameArea.pause();
 }
 
-
 function component(width, height, color, x, y) {
     this.width = width;
     this.height = height;
@@ -44,7 +43,6 @@ function component(width, height, color, x, y) {
         this.y += this.speedY;
     }
 }
-
 
 function updateGameArea() {
     myGameArea.clear();
